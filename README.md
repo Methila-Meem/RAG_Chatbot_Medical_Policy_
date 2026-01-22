@@ -85,7 +85,7 @@ Before you begin, ensure you have the following installed:
 Once the server is running, navigate to `http://localhost:8000/docs` to access the interactive Swagger UI.
 
 ### Ingest Documents
-Place your medical policy PDFs in the `Data/` directory (or use an upload endpoint if configured) to perform initial indexing.
+Place your medical policy PDFs in the `Data/documents` directory (or use an upload endpoint if configured) to perform initial indexing.
 
 ### Chat with the Bot
 Send a POST request to the chat endpoint to query your documents.
@@ -95,14 +95,12 @@ Send a POST request to the chat endpoint to query your documents.
 ### 1. API Query
 Here is an example of sending a query to the chatbot via the Swagger UI.
 
-![API Query Screenshot](assets/api_query.png)
-*(Place your screenshot here: Create an `assets` folder and save the image as `api_query.png`)*
+![API Query Screenshot](assets/api_query.PNG)
 
 ### 2. API Response
 The chatbot retrieves relevant context and answers based on the medical policy.
 
-![API Response Screenshot](assets/api_response.png)
-*(Place your screenshot here: Save the image as `api_response.png`)*
+![API Response Screenshot](assets/api_response.PNG)
 
 ## 🧠 Approach & Architecture
 
