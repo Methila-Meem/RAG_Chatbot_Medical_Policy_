@@ -1,0 +1,27 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+pydantic-settings
+python-dotenv
+
+# Document Processing
+PyPDF2
+pypdf
+langchain
+langchain-community
+
+# Embeddings & Vector Store
+sentence-transformers
+faiss-cpu
+chromadb
+
+# LLM
+groq
+
+# Caching
+redis
+hiredis
+
+# Utilities
+numpy
